@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Hammad Ahmad — Software Developer &amp; AI Product Engineer</title>
+  <meta name="description" content="Hammad Ahmad — Software Developer &amp; AI Product Engineer." />
+  <meta name="theme-color" content="#060608" />
+
+  <!-- Google Fonts: Oswald (Tall Condensed Editorial) & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/projects-accordion.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+<body>
+
+  <!-- Minimal Loader for Frame Sequence -->
+  <div id="loader" class="loader">
+    <div class="loader-content">
+      <div class="loader-bar-bg">
+        <div id="loader-progress" class="loader-bar-fill"></div>
+      </div>
+      <span id="loader-text" class="loader-text">Loading 0%</span>
+    </div>
+  </div>
+
+  <!-- Top Glassmorphism Navigation Bar -->
+  <header class="site-header" id="site-header">
+    <div class="header-brand">
+      <a href="#hero" class="brand-link">Hammad</a>
+    </div>
+    <nav class="site-nav" aria-label="Main Navigation">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="header-spacer" aria-hidden="true"></div>
+  </header>
+
+  <!-- Pinned Canvas Background for the Existing Video Scroll Animation -->
+  <div class="canvas-viewport">
+    <canvas id="scroll-canvas"></canvas>
+    <div class="canvas-ambient-lighting"></div>
+    <div class="canvas-vignette-overlay"></div>
+  </div>
+
+  <!-- ONLY TWO SECTIONS: HERO & ABOUT -->
+  <main class="scroll-container" id="scroll-container">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-stage">
+        
+        <!-- Large Centered Name on TWO Separate Lines -->
+        <h1 class="hero-name">
+          <span class="name-line">HAMMAD</span>
+          <span class="name-line">AHMAD</span>
+        </h1>
+
+        <!-- Professional Role Positioned Below Name -->
+        <div class="hero-role-wrapper">
+          <p class="hero-role-text">
+            <span class="role-primary">Software Developer</span>
+            <span class="role-accent">&amp; AI Product Engineer</span>
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Subtle scroll cue -->
+      <div class="hero-scroll-cue" aria-hidden="true">
+        <span class="cue-text">Scroll</span>
+        <div class="cue-line"></div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION (Transparent foreground integrated into continuous 3D scene) -->
+    <section class="about-section" id="about">
+      <div class="about-inner">
+        <div class="about-content">
+          <div class="about-label-col">
+            <span class="about-label">— About Me</span>
+          </div>
+          <div class="about-text-col">
+            <p class="about-text">
+              I started in business development, working on national and international campaigns. That’s where I learned what people actually want, and what makes them say yes.
+            </p>
+            <p class="about-text">
+              Then I picked up app and website development and AI automation as a hobby. The hobby got serious, and today it’s my profession.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS / TECH STACK MARQUEE SECTION -->
+    <section class="skills-section" id="skills">
+      <div class="skills-header">
+        <span class="skills-label">— Tech Stack</span>
+      </div>
+
+      <div class="marquee-viewport">
+        <!-- Track is duplicated for seamless infinite loop -->
+        <div class="marquee-track" aria-hidden="false">
+
+          <!-- === SET 1 === -->
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#E34F26" d="M9.032 2l10.005 112.093 44.896 12.401 45.02-12.387L119.968 2H9.032zm89.126 26.539l-1.02 11.388-.344 3.866H48.311l1.38 15.496h55.972l-3.916 44.066-37.744 10.157v.012h-.016l-37.699-10.086L23.208 87.511h15.355l1.838 20.33 23.498 6.057v.015l.016-.004 23.521-6.064 2.893-32.401H19.81L14.395 18.998l99.21.035-1.111 9.506-.336 9z"/></svg>
+            <span class="tech-name">HTML</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.137 8.601-96.354H64.001v106.491z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.46 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/><path fill="#EBEBEB" d="M64.001 23.435v13.831H30.64l-.277-3.108-.63-7.044-.331-3.679h34.599zm-.082 27.994v13.831H48.917l-.277-3.108-.631-7.044-.33-3.679h16.32z"/></svg>
+            <span class="tech-name">CSS</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.547 5.427 18.508 6.814 19.rallye9 14.161.674 7.492-5.699 9.548-13.054 8.673-5.551-.903-8.726-3.991-11.867-9.021-4.499 2.606-4.499 2.606-9.086 5.373 1.106 2.282 2.129 3.246 3.876 5.085 8.277 8.602 29.001 8.249 32.674-5.521.168-.615.43-1.582.521-4.397l-.034-.067zM74.122 30.833h-11.89L62.15 62.526c0 11.604.545 22.541-.676 25.inherited-4.836 1.969-8.584-.235-10.168-3.003-1.001-1.698-1.252-2.704-1.380-3.490l-9.242 5.769c1.506 3.115 3.876 5.810 6.782 7.421 4.866 2.707 11.585 3.551 18.387 1.621 4.483-1.292 8.377-4.010 10.301-8.077 2.955-5.785 2.370-12.780 2.348-21.330L74.122 30.833z"/></svg>
+            <span class="tech-name">JavaScript</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.218 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.219-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.218 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.218-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64z" fill="#38BDF8"/></svg>
+            <span class="tech-name">Tailwind CSS</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#7952B3" d="M64 0L9.978 96h108.044L64 0zM56 109v19h16v-19H56z"/><path fill="#fff" d="M64 20.17L18.434 100h91.132L64 20.17zM56 109v19h16v-19H56z" opacity=".2"/></svg>
+            <span class="tech-name">Bootstrap</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g fill="#61DAFB"><circle cx="64" cy="64" r="11.4"/><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.8 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.7-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2-2.2-4.1-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 11.4 3.7 19.1 9.7 19.1 14.6-.1 4.7-5.8 9.7-12.7 14.4z"/></g></svg>
+            <span class="tech-name">React</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zm32.7 114.4L81.3 99l-4.1 12.4L64 96.2l-13.2 15.2L46.7 99 31.3 114.4C21.4 104.6 15 90.9 15 75.6c0-12.8 4.5-24.5 11.9-33.6l15.8 13.5-7.1 8.2 22.4-7.2V40.6L44.1 49 56 25.8 64 32l8-6.2L83.9 49 70 40.6v15.9l22.4 7.2-7.1-8.2 15.8-13.5C108.5 51.1 113 62.8 113 75.6c0 15.3-6.4 29-16.3 38.8z" fill="#000"/><path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zm32.7 114.4L81.3 99l-4.1 12.4L64 96.2l-13.2 15.2L46.7 99 31.3 114.4C21.4 104.6 15 90.9 15 75.6c0-12.8 4.5-24.5 11.9-33.6l15.8 13.5-7.1 8.2 22.4-7.2V40.6L44.1 49 56 25.8 64 32l8-6.2L83.9 49 70 40.6v15.9l22.4 7.2-7.1-8.2 15.8-13.5C108.5 51.1 113 62.8 113 75.6c0 15.3-6.4 29-16.3 38.8z" fill="#fff" opacity=".1"/></svg>
+            <span class="tech-name">Next.js</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#404137" d="M0 0h128v128H0z"/><path d="M40 97.255V30.745L97.255 64 40 97.255z" fill="#00B140"/></svg>
+            <span class="tech-name">Express.js</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><linearGradient id="py-a" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#5A9FD4"/><stop offset="1" stop-color="#306998"/></linearGradient><linearGradient id="py-b" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#FFD43B"/><stop offset="1" stop-color="#FFE873"/></linearGradient><path fill="url(#py-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z"/><path fill="url(#py-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z"/></svg>
+            <span class="tech-name">Python</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#24292E"/><path d="M64 16C37.49 16 16 37.49 16 64c0 21.15 13.71 39.09 32.73 45.42 2.39.44 3.27-1.04 3.27-2.31 0-1.14-.04-4.17-.06-8.18-13.33 2.9-16.15-6.43-16.15-6.43-2.18-5.54-5.32-7.02-5.32-7.02-4.35-2.97.33-2.91.33-2.91 4.81.34 7.34 4.94 7.34 4.94 4.27 7.32 11.21 5.2 13.94 3.98.43-3.1 1.67-5.21 3.04-6.41C42.6 83.04 31.3 79.08 31.3 60.42c0-5.28 1.89-9.6 4.98-12.99-.5-1.22-2.16-6.15.47-12.82 0 0 4.06-1.3 13.3 4.96 3.86-1.07 8-1.61 12.12-1.63 4.11.02 8.25.56 12.12 1.63 9.23-6.26 13.28-4.96 13.28-4.96 2.64 6.67.99 11.6.48 12.82 3.1 3.39 4.97 7.71 4.97 12.99 0 18.61-11.32 22.61-22.1 23.8 1.74 1.5 3.29 4.46 3.29 8.98 0 6.48-.06 11.7-.06 13.29 0 1.28.87 2.77 3.29 2.3C98.3 103.07 112 85.14 112 64c0-26.51-21.49-48-48-48z" fill="#fff"/></svg>
+            <span class="tech-name">Electron</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#FFC131"/><path d="M109.6 38.3L83.1 93.7c-.5 1.1-1.9 1.4-2.8.6L64 79.1 47.7 94.3c-.9.8-2.3.5-2.8-.6L18.4 38.3c-.6-1.2.5-2.5 1.8-2.1l21.9 7.7c.6.2 1 .7 1 1.3v18.6c0 .8.9 1.3 1.6.9L64 53.4l19.3 11.3c.7.4 1.6-.1 1.6-.9V45.2c0-.6.4-1.1 1-1.3l21.9-7.7c1.3-.4 2.4.9 1.8 2.1z" fill="#fff"/></svg>
+            <span class="tech-name">Tauri</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#EA2D2E" d="M114.032 36.056L72.8 9.04c-5.144-3.2-13.456-3.2-18.6 0L12.968 36.056C7.824 39.272 4 46.376 4 52.8v54.4c0 6.424 3.824 13.528 8.968 16.744L54.2 150.96c5.144 3.2 13.456 3.2 18.6 0l41.232-27.016C119.176 120.728 123 113.624 123 107.2V52.8c0-6.424-3.824-13.528-8.968-16.744zM64 99.68c-19.672 0-35.68-16.008-35.68-35.68S44.328 28.32 64 28.32 99.68 44.328 99.68 64 83.672 99.68 64 99.68z" transform="scale(.7) translate(18 -5)"/><circle fill="#EA2D2E" cx="64" cy="64" r="25" transform="scale(.7) translate(18 -5)"/></svg>
+            <span class="tech-name">Java</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#433D8B"/><text x="50%" y="58%" font-size="38" font-weight="700" font-family="sans-serif" fill="#fff" text-anchor="middle" dominant-baseline="middle">Z</text></svg>
+            <span class="tech-name">Zustand</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M13.476 103.143L56.29 24.57c3.573-6.79 13.263-6.842 16.883-.043l10.653 19.913-21.243 39.037c-3.33 6.113-3.36 13.617-.077 19.755l11.852 21.813H13.476zm101.048 0L71.71 24.57c-3.575-6.79-13.264-6.842-16.884-.043" fill="#42A5F5"/><path d="M101.71 103.143H26.29L56.29 47.37l10.653 19.913-21.243 39.037c-3.33 6.113-3.36 13.617-.077 19.755l11.852 21.813" fill="#42A5F5" opacity=".6"/></svg>
+            <span class="tech-name">Flutter</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M64 4C30.863 4 4 30.862 4 64s26.863 60 60 60 60-26.862 60-60S97.137 4 64 4zm16.404 90.39l-6.993 7.201L50.7 79.375l-12.61 12.586-7.19-7.006L60.9 44.21l19.504 50.18zM77.6 39.1L60.9 56.018 44.2 39.1 60.9 22.182 77.6 39.1z" fill="#0175C2"/></svg>
+            <span class="tech-name">Dart</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g fill="#61DAFB"><circle cx="64" cy="64" r="11.4"/><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.8 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8z"/></g></svg>
+            <span class="tech-name">React Native</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="22" fill="#000"/><path d="M64 20c-5.5 0-10 4.5-10 10v5H40c-5.5 0-10 4.5-10 10v58c0 5.5 4.5 10 10 10h48c5.5 0 10-4.5 10-10V45c0-5.5-4.5-10-10-10H74v-5c0-5.5-4.5-10-10-10zm0 8c1.1 0 2 .9 2 2v5H62v-5c0-1.1.9-2 2-2z" fill="#fff" opacity=".9"/></svg>
+            <span class="tech-name">Expo</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#EA4B71"/><path d="M28 44h18v40H28zm0 0" fill="#fff"/><path d="M46 64l28-20v40z" fill="#fff"/><path d="M82 44h18v40H82z" fill="#fff"/></svg>
+            <span class="tech-name">n8n</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#6D4DB3"/><circle cx="40" cy="64" r="14" fill="#fff"/><circle cx="88" cy="40" r="14" fill="#fff"/><circle cx="88" cy="88" r="14" fill="#fff"/><path d="M54 64h20M74 40l-20 16M74 88L54 72" stroke="#fff" stroke-width="6" stroke-linecap="round"/></svg>
+            <span class="tech-name">Make</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#FF7000"/><path d="M32 50c0-7.7 6.3-14 14-14h36c7.7 0 14 6.3 14 14v28c0 7.7-6.3 14-14 14H46c-7.7 0-14-6.3-14-14V50z" fill="#fff" opacity=".2"/><path d="M46 64c0-9.9 8.1-18 18-18s18 8.1 18 18-8.1 18-18 18-18-8.1-18-18z" fill="#fff"/></svg>
+            <span class="tech-name">Zapier</span>
+          </div>
+
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#1C7C54"/><path d="M24 64c0-22.1 17.9-40 40-40s40 17.9 40 40-17.9 40-40 40-40-17.9-40-40z" fill="none" stroke="#fff" stroke-width="8"/><path d="M64 36v28l16 16" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            <span class="tech-name">LangGraph</span>
+          </div>
+
+          <!-- === SET 2 (exact duplicate for seamless loop) === -->
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#E34F26" d="M9.032 2l10.005 112.093 44.896 12.401 45.02-12.387L119.968 2H9.032zm89.126 26.539l-1.02 11.388-.344 3.866H48.311l1.38 15.496h55.972l-3.916 44.066-37.744 10.157v.012h-.016l-37.699-10.086L23.208 87.511h15.355l1.838 20.33 23.498 6.057v.015l.016-.004 23.521-6.064 2.893-32.401H19.81L14.395 18.998l99.21.035-1.111 9.506-.336 9z"/></svg>
+            <span class="tech-name">HTML</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/><path fill="#33A9DC" d="M64.001 117.062l36.559-10.137 8.601-96.354H64.001v106.491z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.46 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/><path fill="#EBEBEB" d="M64.001 23.435v13.831H30.64l-.277-3.108-.63-7.044-.331-3.679h34.599zm-.082 27.994v13.831H48.917l-.277-3.108-.631-7.044-.33-3.679h16.32z"/></svg>
+            <span class="tech-name">CSS</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.547 5.427 18.508 6.814 19.rallye9 14.161.674 7.492-5.699 9.548-13.054 8.673-5.551-.903-8.726-3.991-11.867-9.021-4.499 2.606-4.499 2.606-9.086 5.373 1.106 2.282 2.129 3.246 3.876 5.085 8.277 8.602 29.001 8.249 32.674-5.521.168-.615.43-1.582.521-4.397l-.034-.067zM74.122 30.833h-11.89L62.15 62.526c0 11.604.545 22.541-.676 25.inherited-4.836 1.969-8.584-.235-10.168-3.003-1.001-1.698-1.252-2.704-1.380-3.490l-9.242 5.769c1.506 3.115 3.876 5.810 6.782 7.421 4.866 2.707 11.585 3.551 18.387 1.621 4.483-1.292 8.377-4.010 10.301-8.077 2.955-5.785 2.370-12.780 2.348-21.330L74.122 30.833z"/></svg>
+            <span class="tech-name">JavaScript</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.218 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.219-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.218 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.218-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64z" fill="#38BDF8"/></svg>
+            <span class="tech-name">Tailwind CSS</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#7952B3" d="M64 0L9.978 96h108.044L64 0zM56 109v19h16v-19H56z"/><path fill="#fff" d="M64 20.17L18.434 100h91.132L64 20.17zM56 109v19h16v-19H56z" opacity=".2"/></svg>
+            <span class="tech-name">Bootstrap</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g fill="#61DAFB"><circle cx="64" cy="64" r="11.4"/><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.8 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8z"/></g></svg>
+            <span class="tech-name">React</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zm32.7 114.4L81.3 99l-4.1 12.4L64 96.2l-13.2 15.2L46.7 99 31.3 114.4C21.4 104.6 15 90.9 15 75.6c0-12.8 4.5-24.5 11.9-33.6l15.8 13.5-7.1 8.2 22.4-7.2V40.6L44.1 49 56 25.8 64 32l8-6.2L83.9 49 70 40.6v15.9l22.4 7.2-7.1-8.2 15.8-13.5C108.5 51.1 113 62.8 113 75.6c0 15.3-6.4 29-16.3 38.8z" fill="#000"/><path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zm32.7 114.4L81.3 99l-4.1 12.4L64 96.2l-13.2 15.2L46.7 99 31.3 114.4C21.4 104.6 15 90.9 15 75.6c0-12.8 4.5-24.5 11.9-33.6l15.8 13.5-7.1 8.2 22.4-7.2V40.6L44.1 49 56 25.8 64 32l8-6.2L83.9 49 70 40.6v15.9l22.4 7.2-7.1-8.2 15.8-13.5C108.5 51.1 113 62.8 113 75.6c0 15.3-6.4 29-16.3 38.8z" fill="#fff" opacity=".1"/></svg>
+            <span class="tech-name">Next.js</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#404137" d="M0 0h128v128H0z"/><path d="M40 97.255V30.745L97.255 64 40 97.255z" fill="#00B140"/></svg>
+            <span class="tech-name">Express.js</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><linearGradient id="py-c" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#5A9FD4"/><stop offset="1" stop-color="#306998"/></linearGradient><linearGradient id="py-d" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#FFD43B"/><stop offset="1" stop-color="#FFE873"/></linearGradient><path fill="url(#py-c)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z"/><path fill="url(#py-d)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z"/></svg>
+            <span class="tech-name">Python</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#24292E"/><path d="M64 16C37.49 16 16 37.49 16 64c0 21.15 13.71 39.09 32.73 45.42 2.39.44 3.27-1.04 3.27-2.31 0-1.14-.04-4.17-.06-8.18-13.33 2.9-16.15-6.43-16.15-6.43-2.18-5.54-5.32-7.02-5.32-7.02-4.35-2.97.33-2.91.33-2.91 4.81.34 7.34 4.94 7.34 4.94 4.27 7.32 11.21 5.2 13.94 3.98.43-3.1 1.67-5.21 3.04-6.41C42.6 83.04 31.3 79.08 31.3 60.42c0-5.28 1.89-9.6 4.98-12.99-.5-1.22-2.16-6.15.47-12.82 0 0 4.06-1.3 13.3 4.96 3.86-1.07 8-1.61 12.12-1.63 4.11.02 8.25.56 12.12 1.63 9.23-6.26 13.28-4.96 13.28-4.96 2.64 6.67.99 11.6.48 12.82 3.1 3.39 4.97 7.71 4.97 12.99 0 18.61-11.32 22.61-22.1 23.8 1.74 1.5 3.29 4.46 3.29 8.98 0 6.48-.06 11.7-.06 13.29 0 1.28.87 2.77 3.29 2.3C98.3 103.07 112 85.14 112 64c0-26.51-21.49-48-48-48z" fill="#fff"/></svg>
+            <span class="tech-name">Electron</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#FFC131"/><path d="M109.6 38.3L83.1 93.7c-.5 1.1-1.9 1.4-2.8.6L64 79.1 47.7 94.3c-.9.8-2.3.5-2.8-.6L18.4 38.3c-.6-1.2.5-2.5 1.8-2.1l21.9 7.7c.6.2 1 .7 1 1.3v18.6c0 .8.9 1.3 1.6.9L64 53.4l19.3 11.3c.7.4 1.6-.1 1.6-.9V45.2c0-.6.4-1.1 1-1.3l21.9-7.7c1.3-.4 2.4.9 1.8 2.1z" fill="#fff"/></svg>
+            <span class="tech-name">Tauri</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path fill="#EA2D2E" d="M114.032 36.056L72.8 9.04c-5.144-3.2-13.456-3.2-18.6 0L12.968 36.056C7.824 39.272 4 46.376 4 52.8v54.4c0 6.424 3.824 13.528 8.968 16.744L54.2 150.96c5.144 3.2 13.456 3.2 18.6 0l41.232-27.016C119.176 120.728 123 113.624 123 107.2V52.8c0-6.424-3.824-13.528-8.968-16.744zM64 99.68c-19.672 0-35.68-16.008-35.68-35.68S44.328 28.32 64 28.32 99.68 44.328 99.68 64 83.672 99.68 64 99.68z" transform="scale(.7) translate(18 -5)"/><circle fill="#EA2D2E" cx="64" cy="64" r="25" transform="scale(.7) translate(18 -5)"/></svg>
+            <span class="tech-name">Java</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#433D8B"/><text x="50%" y="58%" font-size="38" font-weight="700" font-family="sans-serif" fill="#fff" text-anchor="middle" dominant-baseline="middle">Z</text></svg>
+            <span class="tech-name">Zustand</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M13.476 103.143L56.29 24.57c3.573-6.79 13.263-6.842 16.883-.043l10.653 19.913-21.243 39.037c-3.33 6.113-3.36 13.617-.077 19.755l11.852 21.813H13.476zm101.048 0L71.71 24.57c-3.575-6.79-13.264-6.842-16.884-.043" fill="#42A5F5"/></svg>
+            <span class="tech-name">Flutter</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><path d="M64 4C30.863 4 4 30.862 4 64s26.863 60 60 60 60-26.862 60-60S97.137 4 64 4zm16.404 90.39l-6.993 7.201L50.7 79.375l-12.61 12.586-7.19-7.006L60.9 44.21l19.504 50.18zM77.6 39.1L60.9 56.018 44.2 39.1 60.9 22.182 77.6 39.1z" fill="#0175C2"/></svg>
+            <span class="tech-name">Dart</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g fill="#61DAFB"><circle cx="64" cy="64" r="11.4"/><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.8 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8z"/></g></svg>
+            <span class="tech-name">React Native</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="22" fill="#000"/><path d="M64 20c-5.5 0-10 4.5-10 10v5H40c-5.5 0-10 4.5-10 10v58c0 5.5 4.5 10 10 10h48c5.5 0 10-4.5 10-10V45c0-5.5-4.5-10-10-10H74v-5c0-5.5-4.5-10-10-10zm0 8c1.1 0 2 .9 2 2v5H62v-5c0-1.1.9-2 2-2z" fill="#fff" opacity=".9"/></svg>
+            <span class="tech-name">Expo</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#EA4B71"/><path d="M28 44h18v40H28zm0 0" fill="#fff"/><path d="M46 64l28-20v40z" fill="#fff"/><path d="M82 44h18v40H82z" fill="#fff"/></svg>
+            <span class="tech-name">n8n</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#6D4DB3"/><circle cx="40" cy="64" r="14" fill="#fff"/><circle cx="88" cy="40" r="14" fill="#fff"/><circle cx="88" cy="88" r="14" fill="#fff"/><path d="M54 64h20M74 40l-20 16M74 88L54 72" stroke="#fff" stroke-width="6" stroke-linecap="round"/></svg>
+            <span class="tech-name">Make</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#FF7000"/><path d="M32 50c0-7.7 6.3-14 14-14h36c7.7 0 14 6.3 14 14v28c0 7.7-6.3 14-14 14H46c-7.7 0-14-6.3-14-14V50z" fill="#fff" opacity=".2"/><path d="M46 64c0-9.9 8.1-18 18-18s18 8.1 18 18-8.1 18-18 18-18-8.1-18-18z" fill="#fff"/></svg>
+            <span class="tech-name">Zapier</span>
+          </div>
+          <div class="marquee-item">
+            <svg class="tech-icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><rect width="128" height="128" rx="14" fill="#1C7C54"/><path d="M24 64c0-22.1 17.9-40 40-40s40 17.9 40 40-17.9 40-40 40-40-17.9-40-40z" fill="none" stroke="#fff" stroke-width="8"/><path d="M64 36v28l16 16" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            <span class="tech-name">LangGraph</span>
+          </div>
+
+        </div><!-- /.marquee-track -->
+      </div><!-- /.marquee-viewport -->
+    </section><!-- /#skills -->
+
+    <!-- 4. SERVICES SECTION — Sticky Stacked Cards -->
+    <section class="services-section" id="services">
+
+      <!-- Sticky heading that stays while cards scroll under it -->
+      <div class="services-heading-wrap">
+        <span class="services-label">— Services</span>
+        <h2 class="services-title">What I <em>build</em></h2>
+      </div>
+
+      <!-- Card stack: each card is position:sticky -->
+      <div class="services-stack">
+
+        <div class="svc-card svc-card--1">
+          <div class="svc-card-inner">
+            <div class="svc-card-top">
+              <span class="svc-num">01</span>
+              <span class="svc-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="svc-title">Website<br>Development</h3>
+            <p class="svc-desc">Fast, pixel-perfect websites built with modern stacks — from landing pages to full-scale web applications that convert visitors into clients.</p>
+            <div class="svc-tags">
+              <span>React</span><span>Next.js</span><span>Tailwind</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="svc-card svc-card--2">
+          <div class="svc-card-inner">
+            <div class="svc-card-top">
+              <span class="svc-num">02</span>
+              <span class="svc-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="svc-title">Desktop App<br>Development</h3>
+            <p class="svc-desc">Cross-platform desktop applications with native performance, built using Electron and Tauri — shipping on Windows, macOS, and Linux.</p>
+            <div class="svc-tags">
+              <span>Electron</span><span>Tauri</span><span>Rust</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="svc-card svc-card--3">
+          <div class="svc-card-inner">
+            <div class="svc-card-top">
+              <span class="svc-num">03</span>
+              <span class="svc-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="svc-title">SaaS<br>Apps</h3>
+            <p class="svc-desc">End-to-end SaaS products — auth, billing, dashboards, multi-tenancy — architected to scale from your first paying customer to thousands.</p>
+            <div class="svc-tags">
+              <span>Next.js</span><span>Zustand</span><span>Stripe</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="svc-card svc-card--4">
+          <div class="svc-card-inner">
+            <div class="svc-card-top">
+              <span class="svc-num">04</span>
+              <span class="svc-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="svc-title">Mobile<br>Apps</h3>
+            <p class="svc-desc">Smooth, native-feeling mobile apps for iOS and Android — built with React Native, Flutter, or Expo, shipped to both stores from a single codebase.</p>
+            <div class="svc-tags">
+              <span>React Native</span><span>Flutter</span><span>Expo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="svc-card svc-card--5">
+          <div class="svc-card-inner">
+            <div class="svc-card-top">
+              <span class="svc-num">05</span>
+              <span class="svc-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="svc-title">AI<br>Automation</h3>
+            <p class="svc-desc">Automated workflows that eliminate repetitive work — connecting your tools, data and AI models with n8n, Make, and Zapier so you can focus on what matters.</p>
+            <div class="svc-tags">
+              <span>n8n</span><span>Make</span><span>Zapier</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="svc-card svc-card--6">
+          <div class="svc-card-inner">
+            <div class="svc-card-top">
+              <span class="svc-num">06</span>
+              <span class="svc-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="svc-title">AI<br>Agents</h3>
+            <p class="svc-desc">Autonomous AI agents that reason, plan, and act — built with LangGraph and LLM orchestration to handle complex multi-step tasks end-to-end.</p>
+            <div class="svc-tags">
+              <span>LangGraph</span><span>Python</span><span>LLMs</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.services-stack -->
+
+    </section><!-- /#services -->
+
+    <!-- 5. PROJECTS — expanding card rows, grouped by type -->
+    <section class="work-section" id="projects" aria-labelledby="work-h">
+      <div class="work-inner">
+        <header class="work-head">
+          <h2 class="work-title" id="work-h">Selected projects</h2>
+          <p class="work-sub">30+ projects: websites, apps and AI automation I've built. Click a card to open it.</p>
+          <nav class="work-pills" aria-label="Project categories"><a class="work-pill" href="#work-websites">Websites<span>16</span></a><a class="work-pill" href="#work-apps">Desktop &amp; web apps<span>7</span></a><a class="work-pill" href="#work-ai">AI automation<span>9</span></a></nav>
+        </header>
+
+      <div class="work-group" id="work-websites" data-group="websites">
+        <div class="work-group-head">
+          <div class="work-group-title">
+            <h3>Websites</h3>
+            <span class="work-count">16 projects</span>
+          </div>
+          <p class="work-group-blurb">Business, portfolio and store websites, built to load fast and be easy to browse.</p>
+          <div class="work-arrows">
+            <button class="work-arrow" type="button" data-dir="-1" aria-label="Scroll Websites left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+            <button class="work-arrow" type="button" data-dir="1" aria-label="Scroll Websites right"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+          </div>
+        </div>
+        <div class="acc" role="group" aria-label="Websites projects">
+        <article class="acc-item is-active" style="--c1:#377bab;--c2:#203a85;--tint:#101e29;--edge:#99d5ff" data-index="0">
+          <button class="acc-tab" type="button" id="tab-websites-air-khushab" aria-expanded="true" aria-controls="panel-websites-air-khushab">
+            <span class="acc-badge" aria-hidden="true">AK</span>
+            <span class="acc-name">Air Khushab</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-air-khushab" role="region" aria-labelledby="tab-websites-air-khushab">
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">AK</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Air Khushab</h4>
+              <p class="acc-desc">A premium airline brand website for Air Khushab — cinematic visuals, flight booking UI, and a seamless brand experience built for conversion.</p>
+              <ul class="acc-tags"><li>React</li><li>Tailwind</li><li>Animation</li></ul>
+              <a class="acc-link" href="https://air-khushab.vercel.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img src="assets/projects/thumbs/air-khushab.jpg" width="1000" height="667" alt="Air Khushab preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#b55e3a;--c2:#8d6422;--tint:#291710;--edge:#ffb699" data-index="1">
+          <button class="acc-tab" type="button" id="tab-websites-khayam-cinema" aria-expanded="false" aria-controls="panel-websites-khayam-cinema">
+            <span class="acc-badge" aria-hidden="true">KC</span>
+            <span class="acc-name">Khayam Cinema</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-khayam-cinema" role="region" aria-labelledby="tab-websites-khayam-cinema" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">KC</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Khayam Cinema</h4>
+              <p class="acc-desc">A cinematic ticketing and showtime website for a regional movie theatre — immersive UI, real-time seat selection, and online booking flow.</p>
+              <ul class="acc-tags"><li>Next.js</li><li>Stripe</li><li>Supabase</li></ul>
+              <a class="acc-link" href="https://khayam-cinema.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/khayam-cinema.jpg" width="1000" height="667" alt="Khayam Cinema preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#1d60f2;--c2:#0b08bd;--tint:#101729;--edge:#99b9ff" data-index="2">
+          <button class="acc-tab" type="button" id="tab-websites-naeem-mobile" aria-expanded="false" aria-controls="panel-websites-naeem-mobile">
+            <span class="acc-badge" aria-hidden="true">NM</span>
+            <span class="acc-name">Naeem Mobile</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-naeem-mobile" role="region" aria-labelledby="tab-websites-naeem-mobile" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">NM</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Naeem Mobile</h4>
+              <p class="acc-desc">Online store for a mobile and computer accessories shop, with category browsing and featured products.</p>
+              <ul class="acc-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <a class="acc-link" href="https://naeem-mobile.vercel.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/naeem-mobile.jpg" width="1000" height="667" alt="Naeem Mobile preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#ba5a16;--c2:#916d06;--tint:#291a10;--edge:#ffc399" data-index="3">
+          <button class="acc-tab" type="button" id="tab-websites-herman-cafe" aria-expanded="false" aria-controls="panel-websites-herman-cafe">
+            <span class="acc-badge" aria-hidden="true">HC</span>
+            <span class="acc-name">Herman Café</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-herman-cafe" role="region" aria-labelledby="tab-websites-herman-cafe" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">HC</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Herman Café</h4>
+              <p class="acc-desc">Café website with a menu by category, a live order summary and online ordering.</p>
+              <ul class="acc-tags"><li>Menu</li><li>Online ordering</li></ul>
+              <a class="acc-link" href="https://herman-cafe.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/herman-cafe.jpg" width="1000" height="667" alt="Herman Café preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#996d31;--c2:#776f1d;--tint:#291e10;--edge:#ffd499" data-index="4">
+          <button class="acc-tab" type="button" id="tab-websites-lucci" aria-expanded="false" aria-controls="panel-websites-lucci">
+            <span class="acc-badge" aria-hidden="true">LU</span>
+            <span class="acc-name">Lucci</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-lucci" role="region" aria-labelledby="tab-websites-lucci" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">LU</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Lucci</h4>
+              <p class="acc-desc">Luxury fashion storefront with seasonal collections and featured products.</p>
+              <ul class="acc-tags"><li>Fashion</li><li>Storefront</li></ul>
+              <a class="acc-link" href="https://lucci-nine.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/lucci.jpg" width="1000" height="667" alt="Lucci preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#2065f2;--c2:#0a0abd;--tint:#101829;--edge:#99bbff" data-index="5">
+          <button class="acc-tab" type="button" id="tab-websites-murphy-dental" aria-expanded="false" aria-controls="panel-websites-murphy-dental">
+            <span class="acc-badge" aria-hidden="true">MD</span>
+            <span class="acc-name">Murphy Dental Clinic</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-murphy-dental" role="region" aria-labelledby="tab-websites-murphy-dental" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">MD</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Murphy Dental Clinic</h4>
+              <p class="acc-desc">Dental clinic website with its services, team introductions and online appointment booking.</p>
+              <ul class="acc-tags"><li>Healthcare</li><li>Booking</li></ul>
+              <a class="acc-link" href="https://murphy-dental.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/murphy-dental.jpg" width="1000" height="667" alt="Murphy Dental Clinic preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#3d76bf;--c2:#243095;--tint:#101b29;--edge:#99c6ff" data-index="6">
+          <button class="acc-tab" type="button" id="tab-websites-dr-arshad-riaz" aria-expanded="false" aria-controls="panel-websites-dr-arshad-riaz">
+            <span class="acc-badge" aria-hidden="true">DA</span>
+            <span class="acc-name">Dr. Arshad Riaz</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-dr-arshad-riaz" role="region" aria-labelledby="tab-websites-dr-arshad-riaz" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">DA</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Dr. Arshad Riaz</h4>
+              <p class="acc-desc">Doctor portfolio website with qualifications, patient testimonials and appointment booking.</p>
+              <ul class="acc-tags"><li>Healthcare</li><li>Portfolio</li></ul>
+              <a class="acc-link" href="https://drarshadriazportfolio.vercel.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/dr-arshad-riaz.jpg" width="1000" height="667" alt="Dr. Arshad Riaz preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#1d70f2;--c2:#0813bd;--tint:#101929;--edge:#99c1ff" data-index="7">
+          <button class="acc-tab" type="button" id="tab-websites-educonsult" aria-expanded="false" aria-controls="panel-websites-educonsult">
+            <span class="acc-badge" aria-hidden="true">EC</span>
+            <span class="acc-name">The Education Consultant</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-educonsult" role="region" aria-labelledby="tab-websites-educonsult" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">EC</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">The Education Consultant</h4>
+              <p class="acc-desc">Study-abroad consultancy website covering services, popular destinations and a clear way to get in touch.</p>
+              <ul class="acc-tags"><li>Education</li><li>Consultancy</li></ul>
+              <a class="acc-link" href="https://theeducationconsultant.vercel.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/educonsult.jpg" width="1000" height="667" alt="The Education Consultant preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#ab6537;--c2:#856a20;--tint:#291a10;--edge:#ffc199" data-index="8">
+          <button class="acc-tab" type="button" id="tab-websites-khamis" aria-expanded="false" aria-controls="panel-websites-khamis">
+            <span class="acc-badge" aria-hidden="true">KH</span>
+            <span class="acc-name">Khamis</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-khamis" role="region" aria-labelledby="tab-websites-khamis" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">KH</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Khamis</h4>
+              <p class="acc-desc">Online shopping website with category browsing, trending products, summer deals and a cart.</p>
+              <ul class="acc-tags"><li>E-commerce</li><li>Cart</li></ul>
+              <a class="acc-link" href="https://khamis-mu.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/khamis.jpg" width="1000" height="667" alt="Khamis preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#917211;--c2:#697105;--tint:#292310;--edge:#ffe699" data-index="9">
+          <button class="acc-tab" type="button" id="tab-websites-aleem-ur-rehman" aria-expanded="false" aria-controls="panel-websites-aleem-ur-rehman">
+            <span class="acc-badge" aria-hidden="true">AU</span>
+            <span class="acc-name">Aleem ur Rehman</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-aleem-ur-rehman" role="region" aria-labelledby="tab-websites-aleem-ur-rehman" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">AU</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Aleem ur Rehman</h4>
+              <p class="acc-desc">Portfolio website for a digital marketing expert, with campaign results and client testimonials.</p>
+              <ul class="acc-tags"><li>Portfolio</li><li>Marketing</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/aleem-ur-rehman.jpg" width="1000" height="667" alt="Aleem ur Rehman preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#46852a;--c2:#19671b;--tint:#172910;--edge:#b8ff99" data-index="10">
+          <button class="acc-tab" type="button" id="tab-websites-anwaar" aria-expanded="false" aria-controls="panel-websites-anwaar">
+            <span class="acc-badge" aria-hidden="true">AN</span>
+            <span class="acc-name">Anwaar</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-anwaar" role="region" aria-labelledby="tab-websites-anwaar" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">AN</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Anwaar</h4>
+              <p class="acc-desc">Cricketer portfolio with batting and bowling stats, career highlights and recent match records.</p>
+              <ul class="acc-tags"><li>Portfolio</li><li>Sports</li></ul>
+              <a class="acc-link" href="https://anwaarportfolio.vercel.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/anwaar.jpg" width="1000" height="667" alt="Anwaar preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#1d40f2;--c2:#2608bd;--tint:#101429;--edge:#99aaff" data-index="11">
+          <button class="acc-tab" type="button" id="tab-websites-planetopedia" aria-expanded="false" aria-controls="panel-websites-planetopedia">
+            <span class="acc-badge" aria-hidden="true">PL</span>
+            <span class="acc-name">Planetopedia</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-planetopedia" role="region" aria-labelledby="tab-websites-planetopedia" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">PL</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Planetopedia</h4>
+              <p class="acc-desc">Solar system explorer with a page for each planet, quick facts and featured articles.</p>
+              <ul class="acc-tags"><li>Education</li><li>Content</li></ul>
+              <a class="acc-link" href="https://planetopedia-eight.vercel.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/planetopedia.jpg" width="1000" height="667" alt="Planetopedia preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#451ef2;--c2:#6508bd;--tint:#141029;--edge:#ac99ff" data-index="12">
+          <button class="acc-tab" type="button" id="tab-websites-hammond-vr" aria-expanded="false" aria-controls="panel-websites-hammond-vr">
+            <span class="acc-badge" aria-hidden="true">HV</span>
+            <span class="acc-name">Hammond VR</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-hammond-vr" role="region" aria-labelledby="tab-websites-hammond-vr" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">HV</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Hammond VR</h4>
+              <p class="acc-desc">Landing page for a VR brand, showing featured headsets and immersive experiences.</p>
+              <ul class="acc-tags"><li>Landing page</li><li>VR</li></ul>
+              <a class="acc-link" href="https://hammond-vr.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/hammond-vr.jpg" width="1000" height="667" alt="Hammond VR preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#4848f2;--c2:#5a29bd;--tint:#101029;--edge:#9999ff" data-index="13">
+          <button class="acc-tab" type="button" id="tab-websites-nexora" aria-expanded="false" aria-controls="panel-websites-nexora">
+            <span class="acc-badge" aria-hidden="true">NL</span>
+            <span class="acc-name">Nexora Landing Page</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-nexora" role="region" aria-labelledby="tab-websites-nexora" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">NL</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Nexora Landing Page</h4>
+              <p class="acc-desc">Landing page for Nexora AI, built around a glass-style sign-in experience.</p>
+              <ul class="acc-tags"><li>AI automation</li><li>Glass UI</li></ul>
+              <a class="acc-link" href="https://landing-page-nexora-jet.vercel.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/nexora.jpg" width="1000" height="667" alt="Nexora Landing Page preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#7a7827;--c2:#4a5f17;--tint:#292810;--edge:#fffc99" data-index="14">
+          <button class="acc-tab" type="button" id="tab-websites-adaab" aria-expanded="false" aria-controls="panel-websites-adaab">
+            <span class="acc-badge" aria-hidden="true">AA</span>
+            <span class="acc-name">Adaab Auth Panel</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-adaab" role="region" aria-labelledby="tab-websites-adaab" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">AA</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Adaab Auth Panel</h4>
+              <p class="acc-desc">Sign-up, login and OTP verification panel with a soft, welcoming interface.</p>
+              <ul class="acc-tags"><li>Authentication</li><li>OTP</li></ul>
+              <a class="acc-link" href="https://adaab-auth-panel.vercel.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/adaab.jpg" width="1000" height="667" alt="Adaab Auth Panel preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#4e67f2;--c2:#472dbd;--tint:#101329;--edge:#99a9ff" data-index="15">
+          <button class="acc-tab" type="button" id="tab-websites-hammad-portfolio" aria-expanded="false" aria-controls="panel-websites-hammad-portfolio">
+            <span class="acc-badge" aria-hidden="true">HP</span>
+            <span class="acc-name">Hammad Portfolio</span>
+          </button>
+          <div class="acc-panel" id="panel-websites-hammad-portfolio" role="region" aria-labelledby="tab-websites-hammad-portfolio" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">HP</span>
+              <p class="acc-kind">Website</p>
+              <h4 class="acc-title">Hammad Portfolio</h4>
+              <p class="acc-desc">Developer portfolio with tech stack, project showcase and coding stats.</p>
+              <ul class="acc-tags"><li>Portfolio</li><li>Developer</li></ul>
+              <a class="acc-link" href="https://hammadahmadportfolio.netlify.app" target="_blank" rel="noopener noreferrer"><span>Visit website</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/hammad-portfolio.jpg" width="1000" height="667" alt="Hammad Portfolio preview" decoding="async" /></figure>
+          </div>
+        </article>
+        </div>
+      </div>
+      <div class="work-group" id="work-apps" data-group="apps">
+        <div class="work-group-head">
+          <div class="work-group-title">
+            <h3>Desktop &amp; web apps</h3>
+            <span class="work-count">7 projects</span>
+          </div>
+          <p class="work-group-blurb">Software for daily work: point of sale, invoicing, finance, habits and lead tracking.</p>
+          <div class="work-arrows">
+            <button class="work-arrow" type="button" data-dir="-1" aria-label="Scroll Desktop &amp; web apps left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+            <button class="work-arrow" type="button" data-dir="1" aria-label="Scroll Desktop &amp; web apps right"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+          </div>
+        </div>
+        <div class="acc" role="group" aria-label="Desktop &amp; web apps projects">
+        <article class="acc-item is-active" style="--c1:#1d52f2;--c2:#1708bd;--tint:#101629;--edge:#99b2ff" data-index="0">
+          <button class="acc-tab" type="button" id="tab-apps-fintrack" aria-expanded="true" aria-controls="panel-apps-fintrack">
+            <span class="acc-badge" aria-hidden="true">FI</span>
+            <span class="acc-name">FinTrack</span>
+          </button>
+          <div class="acc-panel" id="panel-apps-fintrack" role="region" aria-labelledby="tab-apps-fintrack">
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">FI</span>
+              <p class="acc-kind">Web app</p>
+              <h4 class="acc-title">FinTrack</h4>
+              <p class="acc-desc">Personal finance tracker with spending charts, budget limits and a monthly overview.</p>
+              <ul class="acc-tags"><li>React</li><li>Charts</li><li>Tailwind</li></ul>
+              <a class="acc-link" href="https://v0-fintrack-hammadapp.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Open web app</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img src="assets/projects/thumbs/fintrack.jpg" width="1000" height="667" alt="FinTrack preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#0f766e;--c2:#0b3b58;--tint:#0c1d22;--edge:#8be3d5" data-index="1">
+          <button class="acc-tab" type="button" id="tab-apps-invoicely" aria-expanded="false" aria-controls="panel-apps-invoicely">
+            <span class="acc-badge" aria-hidden="true">IN</span>
+            <span class="acc-name">Invoicely</span>
+          </button>
+          <div class="acc-panel" id="panel-apps-invoicely" role="region" aria-labelledby="tab-apps-invoicely" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">IN</span>
+              <p class="acc-kind">Web app</p>
+              <h4 class="acc-title">Invoicely</h4>
+              <p class="acc-desc">Invoicing app for independent businesses: create professional invoices in seconds and track drafts, sent, paid and overdue ones, with a dark mode.</p>
+              <ul class="acc-tags"><li>Invoicing</li><li>Dashboard</li><li>Dark mode</li></ul>
+              <a class="acc-link" href="https://invoicely-sooty-eight.vercel.app" target="_blank" rel="noopener noreferrer"><span>Open web app</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot acc-shot--empty" role="img" aria-label="Invoicely preview coming soon"><span class="acc-shot-mark" aria-hidden="true">IN</span><figcaption>Screenshot coming soon</figcaption></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#347bb2;--c2:#1d378b;--tint:#101e29;--edge:#99d2ff" data-index="2">
+          <button class="acc-tab" type="button" id="tab-apps-jarvis" aria-expanded="false" aria-controls="panel-apps-jarvis">
+            <span class="acc-badge" aria-hidden="true">MJ</span>
+            <span class="acc-name">Mini Jarvis</span>
+          </button>
+          <div class="acc-panel" id="panel-apps-jarvis" role="region" aria-labelledby="tab-apps-jarvis" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">MJ</span>
+              <p class="acc-kind">Web app</p>
+              <h4 class="acc-title">Mini Jarvis</h4>
+              <p class="acc-desc">Voice-controlled personal assistant inspired by Jarvis, with a live command panel for tasks and queries.</p>
+              <ul class="acc-tags"><li>React</li><li>Web Speech</li><li>LLM</li></ul>
+              <a class="acc-link" href="https://jarvis-theta-peach.vercel.app" target="_blank" rel="noopener noreferrer"><span>Open web app</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/jarvis.jpg" width="1000" height="667" alt="Mini Jarvis preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#774ef2;--c2:#812dbd;--tint:#161029;--edge:#b299ff" data-index="3">
+          <button class="acc-tab" type="button" id="tab-apps-habitly" aria-expanded="false" aria-controls="panel-apps-habitly">
+            <span class="acc-badge" aria-hidden="true">HA</span>
+            <span class="acc-name">Habitly</span>
+          </button>
+          <div class="acc-panel" id="panel-apps-habitly" role="region" aria-labelledby="tab-apps-habitly" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">HA</span>
+              <p class="acc-kind">Web app</p>
+              <h4 class="acc-title">Habitly</h4>
+              <p class="acc-desc">A habit-tracking web app with streaks, reminders, progress analytics, and a clean minimal UI — designed to help users build lasting routines.</p>
+              <ul class="acc-tags"><li>Streaks</li><li>Reminders</li><li>Analytics</li></ul>
+              <a class="acc-link" href="https://habitly-three-blue.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Open web app</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/habitly.jpg" width="1000" height="667" alt="Habitly preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#4076c7;--c2:#252e9b;--tint:#101a29;--edge:#99c2ff" data-index="4">
+          <button class="acc-tab" type="button" id="tab-apps-pos" aria-expanded="false" aria-controls="panel-apps-pos">
+            <span class="acc-badge" aria-hidden="true">PS</span>
+            <span class="acc-name">POS System</span>
+          </button>
+          <div class="acc-panel" id="panel-apps-pos" role="region" aria-labelledby="tab-apps-pos" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">PS</span>
+              <p class="acc-kind">Desktop app</p>
+              <h4 class="acc-title">POS System</h4>
+              <p class="acc-desc">A full-featured Point-of-Sale system built for retail — inventory management, billing, reporting, and multi-user support in one desktop application.</p>
+              <ul class="acc-tags"><li>Electron</li><li>React</li><li>SQLite</li></ul>
+              <a class="acc-link" href="https://github.com/echocrypter/Naeem-Mobile-POS" target="_blank" rel="noopener noreferrer"><span>View on GitHub</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/pos.jpg" width="1000" height="667" alt="POS System preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#967030;--c2:#75711c;--tint:#291f10;--edge:#ffd999" data-index="5">
+          <button class="acc-tab" type="button" id="tab-apps-leadhawk" aria-expanded="false" aria-controls="panel-apps-leadhawk">
+            <span class="acc-badge" aria-hidden="true">LE</span>
+            <span class="acc-name">LeadHawk</span>
+          </button>
+          <div class="acc-panel" id="panel-apps-leadhawk" role="region" aria-labelledby="tab-apps-leadhawk" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">LE</span>
+              <p class="acc-kind">SaaS web app</p>
+              <h4 class="acc-title">LeadHawk</h4>
+              <p class="acc-desc">A B2B lead generation SaaS platform — scrapes, enriches, and qualifies prospects automatically so sales teams focus on closing, not hunting.</p>
+              <ul class="acc-tags"><li>Next.js</li><li>Python</li><li>AI</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/leadhawk.jpg" width="1000" height="667" alt="LeadHawk preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#4e54f2;--c2:#572dbd;--tint:#101029;--edge:#999dff" data-index="6">
+          <button class="acc-tab" type="button" id="tab-apps-nxr" aria-expanded="false" aria-controls="panel-apps-nxr">
+            <span class="acc-badge" aria-hidden="true">NX</span>
+            <span class="acc-name">NXR</span>
+          </button>
+          <div class="acc-panel" id="panel-apps-nxr" role="region" aria-labelledby="tab-apps-nxr" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">NX</span>
+              <p class="acc-kind">Web app</p>
+              <h4 class="acc-title">NXR</h4>
+              <p class="acc-desc">Dark sign-in screen with Google and Apple login options.</p>
+              <ul class="acc-tags"><li>Authentication</li><li>Dark UI</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/nxr.jpg" width="1000" height="667" alt="NXR preview" decoding="async" /></figure>
+          </div>
+        </article>
+        </div>
+      </div>
+      <div class="work-group" id="work-ai" data-group="ai">
+        <div class="work-group-head">
+          <div class="work-group-title">
+            <h3>AI automation</h3>
+            <span class="work-count">9 projects</span>
+          </div>
+          <p class="work-group-blurb">Agents and workflows that answer customers, take calls and handle repetitive work.</p>
+          <div class="work-arrows">
+            <button class="work-arrow" type="button" data-dir="-1" aria-label="Scroll AI automation left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+            <button class="work-arrow" type="button" data-dir="1" aria-label="Scroll AI automation right"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+          </div>
+        </div>
+        <div class="acc" role="group" aria-label="AI automation projects">
+        <article class="acc-item is-active" style="--c1:#864ef2;--c2:#8e2dbd;--tint:#181029;--edge:#bc99ff" data-index="0">
+          <button class="acc-tab" type="button" id="tab-ai-ai-support" aria-expanded="true" aria-controls="panel-ai-ai-support">
+            <span class="acc-badge" aria-hidden="true">AC</span>
+            <span class="acc-name">AI Customer Support Agent</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-support" role="region" aria-labelledby="tab-ai-ai-support">
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">AC</span>
+              <p class="acc-kind">AI agent</p>
+              <h4 class="acc-title">AI Customer Support Agent</h4>
+              <p class="acc-desc">An autonomous AI agent that handles customer queries end-to-end — understands context, resolves tickets, and escalates edge cases without human input.</p>
+              <ul class="acc-tags"><li>LangGraph</li><li>Python</li><li>RAG</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img src="assets/projects/thumbs/ai-support.jpg" width="1000" height="667" alt="AI Customer Support Agent preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#465ff2;--c2:#4428bd;--tint:#101329;--edge:#99a7ff" data-index="1">
+          <button class="acc-tab" type="button" id="tab-ai-ai-voice-receptionist" aria-expanded="false" aria-controls="panel-ai-ai-voice-receptionist">
+            <span class="acc-badge" aria-hidden="true">AV</span>
+            <span class="acc-name">AI Voice Receptionist</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-voice-receptionist" role="region" aria-labelledby="tab-ai-ai-voice-receptionist" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">AV</span>
+              <p class="acc-kind">Voice agent</p>
+              <h4 class="acc-title">AI Voice Receptionist</h4>
+              <p class="acc-desc">A conversational AI voice agent that answers calls, books appointments, answers FAQs, and transfers to humans — sounding indistinguishable from a real receptionist.</p>
+              <ul class="acc-tags"><li>Python</li><li>Twilio</li><li>LLMs</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/ai-voice-receptionist.jpg" width="1000" height="667" alt="AI Voice Receptionist preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#4c1df2;--c2:#6b08bd;--tint:#151029;--edge:#af99ff" data-index="2">
+          <button class="acc-tab" type="button" id="tab-ai-ai-lead-gen" aria-expanded="false" aria-controls="panel-ai-ai-lead-gen">
+            <span class="acc-badge" aria-hidden="true">LG</span>
+            <span class="acc-name">Lead Generation Agent</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-lead-gen" role="region" aria-labelledby="tab-ai-ai-lead-gen" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">LG</span>
+              <p class="acc-kind">AI agent</p>
+              <h4 class="acc-title">Lead Generation Agent</h4>
+              <p class="acc-desc">An AI agent that autonomously researches, qualifies, and outreaches to leads — running 24/7 to fill your pipeline without manual effort.</p>
+              <ul class="acc-tags"><li>n8n</li><li>OpenAI</li><li>Python</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/ai-lead-gen.jpg" width="1000" height="667" alt="Lead Generation Agent preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#94712e;--c2:#73721b;--tint:#292010;--edge:#ffdc99" data-index="3">
+          <button class="acc-tab" type="button" id="tab-ai-ai-seo" aria-expanded="false" aria-controls="panel-ai-ai-seo">
+            <span class="acc-badge" aria-hidden="true">SA</span>
+            <span class="acc-name">SEO Agent</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-seo" role="region" aria-labelledby="tab-ai-ai-seo" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">SA</span>
+              <p class="acc-kind">Automation</p>
+              <h4 class="acc-title">SEO Agent</h4>
+              <p class="acc-desc">An automated SEO agent that audits pages, generates optimised content briefs, tracks rankings, and suggests improvements — entirely on autopilot.</p>
+              <ul class="acc-tags"><li>LangGraph</li><li>Python</li><li>Make</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/ai-seo.jpg" width="1000" height="667" alt="SEO Agent preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#334cf2;--c2:#3a19bd;--tint:#101329;--edge:#99a6ff" data-index="4">
+          <button class="acc-tab" type="button" id="tab-ai-ai-voice-support" aria-expanded="false" aria-controls="panel-ai-ai-voice-support">
+            <span class="acc-badge" aria-hidden="true">CS</span>
+            <span class="acc-name">Customer Service Voice Agent</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-voice-support" role="region" aria-labelledby="tab-ai-ai-voice-support" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">CS</span>
+              <p class="acc-kind">Voice agent</p>
+              <h4 class="acc-title">Customer Service Voice Agent</h4>
+              <p class="acc-desc">Voice-based support agent that works around the clock, handles tickets automatically and reports on calls in real time.</p>
+              <ul class="acc-tags"><li>Voice</li><li>Support</li><li>Analytics</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/ai-voice-support.jpg" width="1000" height="667" alt="Customer Service Voice Agent preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#177abd;--c2:#062c93;--tint:#101f29;--edge:#99d6ff" data-index="5">
+          <button class="acc-tab" type="button" id="tab-ai-ai-whatsapp" aria-expanded="false" aria-controls="panel-ai-ai-whatsapp">
+            <span class="acc-badge" aria-hidden="true">WC</span>
+            <span class="acc-name">WhatsApp Chatbot Agent</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-whatsapp" role="region" aria-labelledby="tab-ai-ai-whatsapp" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">WC</span>
+              <p class="acc-kind">Chatbot</p>
+              <h4 class="acc-title">WhatsApp Chatbot Agent</h4>
+              <p class="acc-desc">AI chatbot that talks to customers on WhatsApp and answers their questions automatically.</p>
+              <ul class="acc-tags"><li>WhatsApp</li><li>Chatbot</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/ai-whatsapp.jpg" width="1000" height="667" alt="WhatsApp Chatbot Agent preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#157fab;--c2:#053585;--tint:#102129;--edge:#99e1ff" data-index="6">
+          <button class="acc-tab" type="button" id="tab-ai-ai-invoice" aria-expanded="false" aria-controls="panel-ai-ai-invoice">
+            <span class="acc-badge" aria-hidden="true">IP</span>
+            <span class="acc-name">Invoice Processing Agent</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-invoice" role="region" aria-labelledby="tab-ai-ai-invoice" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">IP</span>
+              <p class="acc-kind">Automation</p>
+              <h4 class="acc-title">Invoice Processing Agent</h4>
+              <p class="acc-desc">Reads invoices with OCR, routes them through an approval workflow and tracks payments in real time.</p>
+              <ul class="acc-tags"><li>OCR</li><li>Approvals</li><li>Payments</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/ai-invoice.jpg" width="1000" height="667" alt="Invoice Processing Agent preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#4e2af2;--c2:#6912bd;--tint:#141029;--edge:#ab99ff" data-index="7">
+          <button class="acc-tab" type="button" id="tab-ai-ai-blog" aria-expanded="false" aria-controls="panel-ai-ai-blog">
+            <span class="acc-badge" aria-hidden="true">BW</span>
+            <span class="acc-name">Blog Writer Agent</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-blog" role="region" aria-labelledby="tab-ai-ai-blog" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">BW</span>
+              <p class="acc-kind">Automation</p>
+              <h4 class="acc-title">Blog Writer Agent</h4>
+              <p class="acc-desc">Turns a YouTube video into a blog post: pulls the transcript, writes the article and publishes it automatically.</p>
+              <ul class="acc-tags"><li>Transcripts</li><li>Content</li><li>Auto-publish</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/ai-blog.jpg" width="1000" height="667" alt="Blog Writer Agent preview" decoding="async" /></figure>
+          </div>
+        </article>
+        <article class="acc-item" style="--c1:#6242f2;--c2:#7325bd;--tint:#141029;--edge:#ac99ff" data-index="8">
+          <button class="acc-tab" type="button" id="tab-ai-ai-rag" aria-expanded="false" aria-controls="panel-ai-ai-rag">
+            <span class="acc-badge" aria-hidden="true">RK</span>
+            <span class="acc-name">RAG Knowledge Agent</span>
+          </button>
+          <div class="acc-panel" id="panel-ai-ai-rag" role="region" aria-labelledby="tab-ai-ai-rag" inert>
+            <div class="acc-copy">
+              <span class="acc-badge acc-badge--panel" aria-hidden="true">RK</span>
+              <p class="acc-kind">AI agent</p>
+              <h4 class="acc-title">RAG Knowledge Agent</h4>
+              <p class="acc-desc">Retrieval-augmented agent that searches a knowledge base of documents and answers with sources, using embeddings and a vector database.</p>
+              <ul class="acc-tags"><li>RAG</li><li>Embeddings</li><li>Vector DB</li></ul>
+              
+            </div>
+            <figure class="acc-shot"><img data-src="assets/projects/thumbs/ai-rag.jpg" width="1000" height="667" alt="RAG Knowledge Agent preview" decoding="async" /></figure>
+          </div>
+        </article>
+        </div>
+      </div>
+      </div>
+    </section><!-- /#projects -->
+
+    <!-- 6. CONTACT SECTION -->
+    <section class="cx-section" id="contact" aria-labelledby="ct-h">
+      <div class="cx-wrap">
+
+        <div class="cx-left">
+          <h2 class="cx-title" id="ct-h">Have a project<br>in mind?</h2>
+          <p class="cx-copy">Tell me what you're building, what you need, or even just the idea in your head. I'll get back to you and we can take it from there.</p>
+
+          <div class="cx-channels">
+            <a class="cx-channel cx-channel--wa" href="https://wa.me/923265933029" target="_blank" rel="noopener noreferrer">
+              <span class="cx-icon"><img src="assets/icons/whatsapp.svg" alt="" width="26" height="26"></span>
+              <span class="cx-channel-text">
+                <span class="cx-channel-label">Chat on WhatsApp</span>
+                <span class="cx-channel-value">+92 326 5933029</span>
+              </span>
+              <span class="cx-go" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span>
+            </a>
+            <a class="cx-channel" href="mailto:hammadxprof174@gmail.com">
+              <span class="cx-icon"><img src="assets/icons/gmail.svg" alt="" width="26" height="26"></span>
+              <span class="cx-channel-text">
+                <span class="cx-channel-label">Send an email</span>
+                <span class="cx-channel-value">hammadxprof174@gmail.com</span>
+              </span>
+              <span class="cx-go" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span>
+            </a>
+          </div>
+
+          <div class="cx-social">
+            <span class="cx-social-label">Also find me on</span>
+            <a href="https://www.linkedin.com/in/hammad-ahmad-a61173318" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="assets/icons/linkedin.svg" alt="" width="22" height="22"></a>
+            <a href="https://github.com/echocrypter" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="assets/icons/github.svg" alt="" width="22" height="22"></a>
+            <a href="https://www.facebook.com/profile.php?id=61595793491149" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="assets/icons/facebook.svg" alt="" width="22" height="22"></a>
+          </div>
+
+          <p class="cx-status"><span class="cx-pulse" aria-hidden="true"></span>Available for freelance projects &amp; collaborations</p>
+        </div>
+
+        <form class="cx-card" id="cf" novalidate>
+          <h3 class="cx-card-title">Tell me about your project</h3>
+          <p class="cx-card-sub">A few details are enough to get started.</p>
+
+          <div class="cx-field">
+            <label for="cf-name">Your name</label>
+            <input autocomplete="name" id="cf-name" type="text" placeholder="John Doe">
+          </div>
+
+          <fieldset class="cx-field">
+            <legend>What do you need?</legend>
+            <div class="cx-chips">
+              <label class="cx-chip"><input type="radio" name="svc" value="a frontend website" checked><span>Frontend website</span></label>
+              <label class="cx-chip"><input type="radio" name="svc" value="a full stack website"><span>Full-stack website</span></label>
+              <label class="cx-chip"><input type="radio" name="svc" value="a SaaS app"><span>SaaS app</span></label>
+              <label class="cx-chip"><input type="radio" name="svc" value="a mobile app"><span>Mobile app</span></label>
+              <label class="cx-chip"><input type="radio" name="svc" value="AI automation"><span>AI automation</span></label>
+              <label class="cx-chip"><input type="radio" name="svc" value="an AI agent"><span>AI agent</span></label>
+              <label class="cx-chip"><input type="radio" name="svc" value="something else"><span>Something else</span></label>
+            </div>
+            <select id="cf-svc" class="cx-select-hidden" tabindex="-1" aria-hidden="true"><option>a frontend website</option><option>a full stack website</option><option>a SaaS app</option><option>a mobile app</option><option>AI automation</option><option>an AI agent</option><option>something else</option></select>
+          </fieldset>
+
+          <div class="cx-field">
+            <label for="cf-msg">Your message</label>
+            <textarea id="cf-msg" placeholder="Tell me a little about your project..."></textarea>
+          </div>
+
+          <div class="cx-actions">
+            <button class="cx-btn cx-btn--primary" id="cf-wa" type="button">
+              <img src="assets/icons/whatsapp.svg" alt="" width="20" height="20"><span>Send on WhatsApp</span>
+            </button>
+            <button class="cx-btn cx-btn--ghost" id="cf-mail" type="button">
+              <img src="assets/icons/gmail.svg" alt="" width="20" height="20"><span>Send by email</span>
+            </button>
+          </div>
+          <p class="fstat" id="cf-st" role="status" aria-live="polite"></p>
+          <p class="cx-note">Your message opens in WhatsApp or your email app. Nothing is stored on this site.</p>
+        </form>
+
+      </div>
+    </section><!-- /#contact -->
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-copy">© <span id="yr">2026</span> Hammad Ahmad. All rights reserved.</p>
+        <a href="#hero" class="footer-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Script for Canvas Animation and Scroll Reveal -->
+  <script src="script.js"></script>
+  <script src="js/projects-accordion.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

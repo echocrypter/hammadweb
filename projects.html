@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Projects — Hammad Ahmad | Cinematic Showcase</title>
+  <meta name="description" content="Explore Hammad Ahmad's software applications, SaaS platforms, and autonomous AI agents orbiting around him in a cinematic interactive space." />
+  <meta name="theme-color" content="#060608" />
+
+  <!-- Google Fonts: Oswald (Display), Plus Jakarta Sans (Body), JetBrains Mono (Code/Badges) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Dedicated Stylesheet -->
+  <link rel="stylesheet" href="css/projects-gallery.css" />
+</head>
+<body>
+
+  <!-- Top Glassmorphic Navigation Bar -->
+  <header class="gallery-header" id="site-header">
+    <div class="gallery-brand">
+      <a href="index.html#hero" class="brand-link">
+        Hammad<em>.</em>
+      </a>
+    </div>
+
+    <nav class="gallery-nav" aria-label="Main Navigation">
+      <a href="index.html#about" class="nav-link">About</a>
+      <a href="index.html#skills" class="nav-link">Skills</a>
+      <a href="index.html#services" class="nav-link">Services</a>
+      <a href="projects.html" class="nav-link active">Projects</a>
+      <a href="index.html#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-cta">
+      <a href="index.html" class="back-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        <span>Back to Portfolio</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       MAIN CINEMATIC HERO: HAMMAD PORTRAIT BACKGROUND & FLOATING GLASS PANELS
+       ══════════════════════════════════════════════════════════════ -->
+  <main class="cinematic-portrait-stage" id="portraitStage">
+
+    <!-- FULL-PAGE HERO PORTRAIT BACKGROUND LAYER -->
+    <div class="portrait-stage-bg" id="portraitStageBg">
+      <img
+        src="assets/portrait-full.png"
+        alt="Hammad Ahmad — Software Engineer & AI Architect"
+        class="hero-bg-portrait"
+        id="heroBgPortrait"
+      />
+      <!-- Atmospheric Lighting Layers -->
+      <div class="portrait-ambient-glow" aria-hidden="true"></div>
+      <div class="portrait-horizon-light" aria-hidden="true"></div>
+      <div class="portrait-vignette-edges" aria-hidden="true"></div>
+    </div>
+
+    <!-- Minimalist Overhead Title Badge (Framing the upper left, never blocking portrait) -->
+    <div class="stage-overlay-title">
+      <div class="hero-chip">
+        <span class="chip-dot"></span>
+        <span>Selected Works &amp; Deployments</span>
+      </div>
+      <h1 class="hero-main-title">Crafted <em>Systems</em></h1>
+      <p class="hero-micro-text">Floating interactive panels · Click to inspect or launch</p>
+    </div>
+
+    <!-- FLOATING FUTURISTIC GLASS PANELS FIELD (Positioned around Hammad) -->
+    <div class="floating-glass-panels-field" id="panelsField">
+      <!-- Injected and orchestrated dynamically by js/projects-gallery.js -->
+    </div>
+
+    <!-- Floating Futuristic Bottom Dock Controls -->
+    <div class="gallery-dock" role="toolbar" aria-label="Projects showcase controls">
+      <!-- Pause / Resume Float Motion -->
+      <button class="dock-btn" id="btnPause" type="button" aria-label="Toggle floating animation">
+        <span class="dock-btn-icon" id="pauseIcon" aria-hidden="true">⏸</span>
+        <span class="dock-btn-label" id="pauseText">Pause</span>
+      </button>
+
+      <div class="dock-divider" aria-hidden="true"></div>
+
+      <!-- Category Filter Tabs -->
+      <div class="dock-filters" role="tablist">
+        <button class="filter-pill active" data-filter="all" role="tab">All (30)</button>
+        <button class="filter-pill" data-filter="apps" role="tab">Apps (5)</button>
+        <button class="filter-pill" data-filter="web" role="tab">Websites (14)</button>
+        <button class="filter-pill" data-filter="ai" role="tab">AI &amp; Agents (11)</button>
+      </div>
+
+      <div class="dock-divider" aria-hidden="true"></div>
+
+      <!-- Scroll to Full Archive Button -->
+      <a href="#catalogGridSection" class="dock-link-btn" id="btnScrollCatalog" aria-label="View complete catalog">
+        <span>Catalog Grid</span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       COMPREHENSIVE CATALOG ARCHIVE (All 30 Projects Grid)
+       ══════════════════════════════════════════════════════════════ -->
+  <section class="catalog-grid-section" id="catalogGridSection">
+    <div class="catalog-container">
+      <div class="catalog-header-wrap">
+        <span class="catalog-badge">— COMPLETE ARCHIVE</span>
+        <h2 class="catalog-title">All Engineered <em>Projects</em></h2>
+        <p class="catalog-sub">30 production desktop software, SaaS web applications, client websites, and autonomous AI agents.</p>
+      </div>
+
+      <!-- Quick Filter Pills for the Grid -->
+      <div class="grid-filter-bar" role="tablist">
+        <button class="grid-filter-pill active" data-grid-filter="all">All (30)</button>
+        <button class="grid-filter-pill" data-grid-filter="apps">Apps (5)</button>
+        <button class="grid-filter-pill" data-grid-filter="web">Websites (14)</button>
+        <button class="grid-filter-pill" data-grid-filter="ai">AI &amp; Agents (11)</button>
+      </div>
+
+      <!-- Full 30 Projects Grid Container -->
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Injected dynamically by js/projects-gallery.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════════════
+       PROJECT INSPECTION MODAL (Glassmorphic Deep View)
+       ══════════════════════════════════════════════════════════════ -->
+  <div class="project-modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="project-modal">
+      <button class="modal-close-btn" id="modalClose" aria-label="Close modal">×</button>
+
+      <div class="modal-img-wrap">
+        <img src="" alt="" id="modalImg" class="modal-img" />
+        <div class="modal-img-overlay"></div>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-header-line">
+          <span class="modal-tag" id="modalTag">Category</span>
+          <div class="modal-tags-list" id="modalTagsList"></div>
+        </div>
+
+        <h3 class="modal-title" id="modalTitle">Project Name</h3>
+        <p class="modal-desc" id="modalDesc">Detailed description of the project.</p>
+
+        <div class="modal-actions">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="modal-link-cta" id="modalCta">
+            <span>Launch Live Project</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dedicated Gallery & Orbit Engine -->
+  <script src="js/projects-gallery.js"></script>
+</body>
+</html>
